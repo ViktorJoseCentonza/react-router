@@ -49,4 +49,18 @@ nav {
   align-items: center;
   gap: 1rem;
   padding-left: 2rem;
+
+  div {
+    display: flex;
+    gap: 1rem;
+  }
+
+  #logo-wrapper {
+    border-radius: 5rem 5rem 0 0;
+    overflow: hidden;
+
+    img {
+      width: 100%;
+    }
+  }
 }
