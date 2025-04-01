@@ -49,8 +49,4 @@ nav {
   align-items: center;
   gap: 1rem;
   padding-left: 2rem;
-
-  NavLink:active {
-    color: white;
-  }
 }
