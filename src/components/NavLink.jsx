@@ -1,12 +1,10 @@
 import { Link, NavLink } from "react-router-dom";
-
+import Logo from "./Logo"
 export default function Navlink() {
     return (
         <nav>
 
-            <NavLink to='/' id="logo-wrapper">
-                <img src="./fabio_spin.gif" alt="fabio_spin" />
-            </NavLink>
+            <Logo />
 
             <div>
                 <NavLink to='/'>Home Page</NavLink>

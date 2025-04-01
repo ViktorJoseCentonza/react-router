@@ -1,5 +1,7 @@
 export default function PostsPage() {
     return (
-        <h1>This is the PostsPage!</h1>
+        <main>
+            <h1>This is the PostsPage!</h1>
+        </main>
     )
 }
