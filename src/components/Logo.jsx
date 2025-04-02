@@ -4,7 +4,7 @@ export default function LogoWrapper() {
 
     return (
         <NavLink to='/' id="logo-wrapper">
-            <img src="./fabio_spin.gif" alt="fabio_spin" />
+            <img className="img-fluid rounded-circle" src="./fabio_spin.gif" alt="fabio_spin" />
         </NavLink>
     )
 
